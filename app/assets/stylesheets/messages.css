@@ -113,27 +113,27 @@
   margin-bottom: 40px;
 }
 
-.chat-bottom {
+.form {
   height: 90px;
   padding: 20px 40px;
   background-color: #DDDDDD;
   display: flex;
 }
 
-.from-input {
+.form-input {
   background-color: white;
   width: 100%;
   display: flex;
 }
 
-.type-one {
+.form-message {
   border: none;
   height: 50px;
   width: 100%;
   padding-left: 10px;
 }
 
-.submit-one {
+.form-submit {
   background-color: #38AEF0;
   border: none;
   color: white;
