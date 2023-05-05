@@ -10,19 +10,9 @@
 <div class="side-bar-row">
    <% current_user.rooms.each do |room| %>
     <div class="room">
-      <div class="room-name">
+      <div class="chat-room">
         <a href="#"><%= room.name %></a>
       </div>
     </div>
    <% end %>
-    <div class="room">
-      <div class="chat-room">
-        <a href="#">NBA</a>
-      </div>
-    </div>
-    <div class="room">
-      <div class="chat-room">
-        <a href="#">NBA2</a>
-      </div>
-    </div>
 </div>
