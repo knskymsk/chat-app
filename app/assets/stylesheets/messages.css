@@ -76,64 +76,64 @@
   text-decoration: none;
 }
 
-.chat-text {
+.messages {
   height: calc(100vh - 100px - 90px);
   padding: 46px 40px 0;
   background-color: #FAFAFA;
   overflow: scroll;
 }
 
-.chat-text-one {
+.message {
   margin: 10px 0 0 0;
 }
 
-.chat-text-two {
+.upper-message {
   display: flex;
 }
 
-.name1 {
+.message {
   font-size: 16px;
   color: #434A54;
 }
 
-.name2 {
+.message {
   font-size: 12px;
   color: #999;
   padding-left: 10px;
 }
 
-.name3-top {
+.message {
   margin-top: 10px;
 
 }
 
-.name3 {
+.message {
   font-size: 14px;
   color: #434A54;
   margin-bottom: 40px;
 }
 
-.chat-bottom {
+.form {
   height: 90px;
   padding: 20px 40px;
   background-color: #DDDDDD;
   display: flex;
 }
 
-.from-input {
+.form-input {
   background-color: white;
   width: 100%;
   display: flex;
 }
 
-.type-one {
+.form-message {
   border: none;
   height: 50px;
   width: 100%;
   padding-left: 10px;
 }
 
-.submit-one {
+.form-submit {
   background-color: #38AEF0;
   border: none;
   color: white;
@@ -156,4 +156,9 @@
 
 .hidden {
   display: none;
+}
+
+.message-user {
+  font-size: 16px;
+  padding: 5px 10px 5px 0;
 }
